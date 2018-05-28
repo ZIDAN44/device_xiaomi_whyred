@@ -184,7 +184,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     vendor/aosp/overlay/CarrierConfig
 
-# OMX
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
+#FM
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libextmedia_jni \
