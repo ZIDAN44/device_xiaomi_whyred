@@ -18,6 +18,11 @@
 PRODUCT_PACKAGES += \
     audiod \
     audio.a2dp.default \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio@4.0-impl \
+    android.hardware.audio.effect@4.0-impl \
+    android.hardware.broadcastradio@1.0-impl \
+    android.hardware.soundtrigger@2.1-impl
     audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
